@@ -1,0 +1,99 @@
+%YAML 1.8
+---
+title: TestMetadata
+description: A metaschema generated from an example dataset.
+tables:
+- name: TEST_TABLE
+  source:
+  - '&id0'
+  - load_type: delta
+    file_pattern: '*.parquet'
+    params:
+      decimal_separator: .
+      format: parquet
+  columns:
+  - name: COLUMN1
+    data_type: VARCHAR2
+  - name: COLUMN2
+    data_type: NUMBER(38,0)
+  - name: COLUMN3
+    data_type: DATE
+    date_format: yyyy-MM-dd HH:mm:ss
+  - name: COLUMN4
+    data_type: DATE
+    is_nullable: true
+    date_format: yyyy-MM-dd HH:mm:ss
+  - name: COLUMN5
+    data_type: VARCHAR2
+  - name: COLUMN6
+    data_type: VARCHAR2
+  - name: COLUMN7
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN8
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN9
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN10
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN11
+    data_type: VARCHAR2
+  - name: COLUMN12
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN13
+    data_type: VARCHAR2
+  - name: COLUMN14
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN15
+    data_type: VARCHAR2
+  - name: COLUMN16
+    data_type: VARCHAR2
+- name: TEST_TABLE1
+  source: '*id0'
+  columns:
+  - name: COLUMN1
+    data_type: VARCHAR2
+  - name: COLUMN2
+    data_type: NUMBER(38,0)
+  - name: COLUMN3
+    data_type: DATE
+    date_format: yyyy-MM-dd HH:mm:ss
+  - name: COLUMN4
+    data_type: DATE
+    is_nullable: true
+    date_format: yyyy-MM-dd HH:mm:ss
+  - name: COLUMN5
+    data_type: VARCHAR2
+  - name: COLUMN6
+    data_type: VARCHAR2
+  - name: COLUMN7
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN8
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN9
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN10
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN11
+    data_type: VARCHAR2
+  - name: COLUMN12
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN13
+    data_type: VARCHAR2
+  - name: COLUMN14
+    data_type: VARCHAR2
+    is_nullable: true
+  - name: COLUMN15
+    data_type: VARCHAR2
+  - name: COLUMN16
+    data_type: VARCHAR2

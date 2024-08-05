@@ -1,0 +1,8 @@
+%YAML 1.14
+---
+gdpr:
+- name: TEST_TABLE1
+  personal_data:
+    hash:
+    - COLUMN1
+    - COLUMN15

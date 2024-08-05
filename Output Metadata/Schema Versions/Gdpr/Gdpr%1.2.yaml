@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+gdpr:
+- name: TEST_TABLE
+  personal_data:
+  - COLUMN1
+  - COLUMN15
+- name: TEST_TABLE1
+  personal_data:
+  - COLUMN1
+  - COLUMN15
